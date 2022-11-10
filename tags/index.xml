@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Tags - 标签 - 码上开饭</title>
+    <link>http://example.org/tags/</link>
+    <description>Tags - 标签 - 码上开饭</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Nov 2022 08:59:06 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+  <title>豆腐</title>
+  <link>http://example.org/tags/%E8%B1%86%E8%85%90/</link>
+  <pubDate>Wed, 09 Nov 2022 08:59:06 &#43;0800</pubDate>
+  <author>leafney</author>
+  <guid>http://example.org/tags/%E8%B1%86%E8%85%90/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>鸡蛋</title>
+  <link>http://example.org/tags/%E9%B8%A1%E8%9B%8B/</link>
+  <pubDate>Wed, 09 Nov 2022 08:59:06 &#43;0800</pubDate>
+  <author>leafney</author>
+  <guid>http://example.org/tags/%E9%B8%A1%E8%9B%8B/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>热菜</title>
+  <link>http://example.org/tags/%E7%83%AD%E8%8F%9C/</link>
+  <pubDate>Wed, 09 Nov 2022 08:59:06 &#43;0800</pubDate>
+  <author>leafney</author>
+  <guid>http://example.org/tags/%E7%83%AD%E8%8F%9C/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
