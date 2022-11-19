@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>家常菜 - 分类 - 码上开饭</title>
-    <link>http://example.org/categories/%E5%AE%B6%E5%B8%B8%E8%8F%9C/</link>
+    <link>https://cookbook.itfanr.cc/categories/%E5%AE%B6%E5%B8%B8%E8%8F%9C/</link>
     <description>家常菜 - 分类 - 码上开饭</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Nov 2022 08:59:06 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/%E5%AE%B6%E5%B8%B8%E8%8F%9C/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Nov 2022 08:59:06 &#43;0800</lastBuildDate><atom:link href="https://cookbook.itfanr.cc/categories/%E5%AE%B6%E5%B8%B8%E8%8F%9C/" rel="self" type="application/rss+xml" /><item>
   <title>鸡蛋豆腐</title>
-  <link>http://example.org/posts/jidan-doufu/</link>
+  <link>https://cookbook.itfanr.cc/posts/%E9%B8%A1%E8%9B%8B%E8%B1%86%E8%85%90/</link>
   <pubDate>Wed, 09 Nov 2022 08:59:06 &#43;0800</pubDate>
   <author>作者</author>
-  <guid>http://example.org/posts/jidan-doufu/</guid>
-  <description><![CDATA[]]></description>
+  <guid>https://cookbook.itfanr.cc/posts/%E9%B8%A1%E8%9B%8B%E8%B1%86%E8%85%90/</guid>
+  <description><![CDATA[一块豆腐做出的美食]]></description>
 </item>
 </channel>
 </rss>
