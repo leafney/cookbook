@@ -1,5 +1,163 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://cookbook.itfanr.cc/'
+languageCode = 'zh-CN'
+defaultContentLanguage = "zh-cn"
+title = '码上开饭'
+hasCJKLanguage = true
 
 theme = "FixIt"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "菜谱"
+    url = "/posts/"
+    title = ""
+    weight = 1
+    [menu.main.params]
+      icon = "fa-solid fa-archive"
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "食材"
+    url = "/tags/"
+    title = ""
+    weight = 2
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-th"
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "关于"
+    url = "/about/"
+    title = ""
+    weight = 4
+    [menu.main.params]
+      icon = "fa-solid fa-user-tie"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[author]
+  name = "leafney"
+  link = "https://github.com/leafney"
+
+
+
+[params]
+  version = "0.2.X"
+  
+  title = "码上开饭"
+  description = "唯爱与美食不可辜负"
+  keywords = ["码上开饭", "家常菜","程序员","会做饭的程序员"]
+  gitRepo = "https://github.com/leafney"
+
+  defaultTheme = "auto"
+  dateFormat = "2006-01-02"
+
+  [params.search]
+    enable = true
+    type = "lunr"
+    contentLength = 4000
+    placeholder = "今天吃点啥呢"
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+
+  [params.header]
+    desktopMode = "sticky"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = "/images/logo.png"
+      name = "码上开饭"
+
+    [params.header.subtitle]
+      name = "唯爱与美食不可辜负"
+      typeit = false
+
+  [params.footer]
+    enable = true
+    hugo = false
+    copyright = true
+    author = true
+    since = 2022
+    wordCount = true
+    #license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license = ''
+
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
+    [params.section.recentlyUpdated]
+      enable = false
+      rss = false
+      days = 30
+      maxCount = 10
+    
+  [params.list]
+    # special amount of posts in each list page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
+
+  [params.home]
+    # FixIt 0.2.0 | NEW amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      title = "码上开饭"
+      subtitle = "唯爱与美食不可辜负"
+      gravatarEmail = ""
+      avatarURL = "/images/avatar.jpg"
+      typeit = true
+      social = false
+
+[params.page]
+  [params.page.share]
+      enable = false
+
+  [params.page.comment]
+      enable = false
+
+  [params.backToTop]
+    enable = true
+    scrollpercent = false
+
+  [params.readingProgress]
+    enable = true
+    # Available values: ["left", "right"]
+    start = "left"
+    # Available values: ["top", "bottom"]
+    position = "top"
+    reversed = false
+    light = ""
+    dark = ""
+    height = "1px"
+
+  [params.cookieconsent]
+    enable = false
