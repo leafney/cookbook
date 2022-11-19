@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      PROJECT_NAME: cookbook
+      PROJECT_NAME: cookbook网站
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -27,7 +27,7 @@ jobs:
           extended: true
       
       - name: Build
-        run: hugo
+        run: hugo --minify
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -35,6 +35,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: main
+          commit_message: ${{ github.event.head_commit.message }}
 
       - name: Notify Success
         uses: leafney/dingtalk-action@v1
@@ -54,6 +55,10 @@ jobs:
           DINGTALK_ACCESS_TOKEN: ${{ secrets.DINGTALK_ACCESS_TOKEN }}
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
         with:
-          msgtype: text
+          msgtype: markdown
           notify_when: 'failure'
-          text: '[${{ env.PROJECT_NAME }}] 发布失败'
+          title: '[${{ env.PROJECT_NAME }}] 发布失败'
+          text: |
+            Action **[${{ github.workflow }}]** 发布失败
+
+            [查看错误信息](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
