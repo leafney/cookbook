@@ -24,8 +24,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
-          # 是否启用 hugo extend
-          # extended: true
+          extended: true
       
       - name: Build
         run: hugo
@@ -37,7 +36,7 @@ jobs:
           publish_dir: ./public
           publish_branch: main
 
-      - name: Notify
+      - name: Notify Success
         uses: leafney/dingtalk-action@v1
         if: always()
         env:
@@ -45,4 +44,16 @@ jobs:
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
         with:
           msgtype: text
-          text: '[${{ env.PROJECT_NAME }}] 发布了'
+          notify_when: 'success'
+          text: '[${{ env.PROJECT_NAME }}] 发布成功'
+
+      - name: Notify Failure
+        uses: leafney/dingtalk-action@v1
+        if: always()
+        env:
+          DINGTALK_ACCESS_TOKEN: ${{ secrets.DINGTALK_ACCESS_TOKEN }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+        with:
+          msgtype: text
+          notify_when: 'failure'
+          text: '[${{ env.PROJECT_NAME }}] 发布失败'
