@@ -1,13 +1,1 @@
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-  ><url>
-      <loc>https://cookbook.itfanr.cc/about/</loc><lastmod>2022-11-09T10:49:56&#43;08:00</lastmod></url><url>
-      <loc>https://cookbook.itfanr.cc/categories/</loc><lastmod>2022-11-09T08:59:06&#43;08:00</lastmod></url><url>
-      <loc>https://cookbook.itfanr.cc/posts/</loc><lastmod>2022-11-09T08:59:06&#43;08:00</lastmod></url><url>
-      <loc>https://cookbook.itfanr.cc/tags/</loc><lastmod>2022-11-09T08:59:06&#43;08:00</lastmod></url><url>
-      <loc>https://cookbook.itfanr.cc/tags/%E8%B1%86%E8%85%90/</loc><lastmod>2022-11-09T08:59:06&#43;08:00</lastmod></url><url>
-      <loc>https://cookbook.itfanr.cc/tags/%E9%B8%A1%E8%9B%8B/</loc><lastmod>2022-11-09T08:59:06&#43;08:00</lastmod></url><url>
-      <loc>https://cookbook.itfanr.cc/posts/%E9%B8%A1%E8%9B%8B%E8%B1%86%E8%85%90/</loc><lastmod>2022-11-09T08:59:06&#43;08:00</lastmod></url><url>
-      <loc>https://cookbook.itfanr.cc/categories/%E5%AE%B6%E5%B8%B8%E8%8F%9C/</loc><lastmod>2022-11-09T08:59:06&#43;08:00</lastmod></url><url>
-      <loc>https://cookbook.itfanr.cc/</loc><lastmod>2022-11-09T08:59:06&#43;08:00</lastmod></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://cookbook.itfanr.cc/about/</loc><lastmod>2022-11-09T10:49:56+08:00</lastmod></url><url><loc>https://cookbook.itfanr.cc/categories/</loc><lastmod>2022-11-09T08:59:06+08:00</lastmod></url><url><loc>https://cookbook.itfanr.cc/posts/</loc><lastmod>2022-11-09T08:59:06+08:00</lastmod></url><url><loc>https://cookbook.itfanr.cc/tags/</loc><lastmod>2022-11-09T08:59:06+08:00</lastmod></url><url><loc>https://cookbook.itfanr.cc/tags/%E8%B1%86%E8%85%90/</loc><lastmod>2022-11-09T08:59:06+08:00</lastmod></url><url><loc>https://cookbook.itfanr.cc/tags/%E9%B8%A1%E8%9B%8B/</loc><lastmod>2022-11-09T08:59:06+08:00</lastmod></url><url><loc>https://cookbook.itfanr.cc/posts/%E9%B8%A1%E8%9B%8B%E8%B1%86%E8%85%90/</loc><lastmod>2022-11-09T08:59:06+08:00</lastmod></url><url><loc>https://cookbook.itfanr.cc/categories/%E5%AE%B6%E5%B8%B8%E8%8F%9C/</loc><lastmod>2022-11-09T08:59:06+08:00</lastmod></url><url><loc>https://cookbook.itfanr.cc/</loc><lastmod>2022-11-09T08:59:06+08:00</lastmod></url></urlset>
